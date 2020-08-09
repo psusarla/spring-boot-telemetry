@@ -1,4 +1,4 @@
-package com.phani.spring.cloudcontracts;
+package com.phani.spring.telemetry;
 
 import io.micrometer.core.annotation.Timed;
 import io.micrometer.core.instrument.Counter;
@@ -62,6 +62,4 @@ public class BooksController {
         saveBook(Book.builder().name("To Kill a Mockingbird").author("Harper Lee").build());
         saveBook(Book.builder().name("Harry Potter and the Order of the Phoenix").author("J.K. Rowling").build());
     }
-
-
 }

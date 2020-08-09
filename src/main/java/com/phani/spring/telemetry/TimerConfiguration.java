@@ -1,4 +1,4 @@
-package com.phani.spring.cloudcontracts;
+package com.phani.spring.telemetry;
 
 import io.micrometer.core.aop.TimedAspect;
 import io.micrometer.core.instrument.MeterRegistry;
